@@ -1,0 +1,10 @@
+<p class="info">Área de Busca</p>
+<div class="navbar-default sticky-top">
+    <form #userForm='ngForm' (ngSubmit)='submitName()'>
+        <input type="text" name="Search" id="searchGit" [(ngModel)]='user.userName' name='user'
+            #name='ngModel' placeholder="Procurar Usuário" required>
+        <button type="submit" class="btn">Buscar</button>
+    </form>
+</div>
+<br>
+ 

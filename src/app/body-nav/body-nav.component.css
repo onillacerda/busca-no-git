@@ -1,0 +1,18 @@
+* {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.navbar-inverse{
+    opacity: 0.9;
+    background-color: #2b3137;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+}
+ 
+.nav-link:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}

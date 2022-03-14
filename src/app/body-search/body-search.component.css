@@ -1,0 +1,31 @@
+* {
+    color: #2b3137;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    font-size: 2rem;
+}
+
+.btn {
+    background-color: #2b3137;
+    color: white;
+    font-size: 0.9rem;
+}
+
+input[type="text"]:focus
+{
+    border-color: #2b3137;
+    box-shadow: #2b3137 inset, #2b3137;
+    outline: 0 none; 
+}
+
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.alinhamento {
+    vertical-align: text-top;
+}
+

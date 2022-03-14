@@ -1,0 +1,10 @@
+<ng-progress></ng-progress>
+<div class="container" *ngFor='let star of httpService.star; let i = index;' #repoComponent>
+    <hr style="border: 1px solid #2b3137 border-width 0">
+    <a href="{{httpService.star[i].html_url}}">
+        <span class="sobreTexto"><b>Título:</b></span> {{httpService.repo[i].name}} <br>
+    </a>
+    {{httpService.star[i].description}} <br>
+    <!-- {{httpService.star[i].html_url}} -->
+    
+</div>  

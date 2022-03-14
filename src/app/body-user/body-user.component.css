@@ -1,0 +1,12 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sobreTitulo {
+    margin-top: 1rem;
+}
+
+.sobreTexto {
+    font-family: 'Roboto', sans-serif;
+    margin-right: 2px;
+} 

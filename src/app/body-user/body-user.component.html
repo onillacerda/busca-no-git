@@ -1,0 +1,23 @@
+<hr style="border: 1px solid #2b3137 border-width 0">
+<div class="container" #myComponent>
+    <a href="https://github.com/{{user.userName}}">
+        <img appHover src="{{user.avatar}}" alt="Imagem do Usuário" height="250px" width="270px">
+    </a>
+    <br>
+    <div>
+        <div>
+            <div>{{user.fullName}}</div>
+            <span style="font-size: small;">{{user.location}}</span>
+        </div>
+        <p class="sobreTitulo sobreTexto"><b>Sobre</b></p>
+        <div>
+            <span class="sobreTexto"><b>Usuário:</b></span> {{user.userName}} <br>
+            <span class="sobreTexto"><b>Resumo:</b></span> {{user.bio}}
+        </div>
+        <div>
+            <span><span class="sobreTexto"><b>Repositórios públicos:</b></span> {{user.repos}}</span>
+            <br>
+            <span><span class="sobreTexto"><b>Entrou no Github:</b></span> {{user.joined | date}}</span>
+        </div>
+    </div>
+</div> 
